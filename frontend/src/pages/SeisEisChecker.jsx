@@ -86,7 +86,7 @@ export default function SeisEisChecker() {
         detail: "Company must have a permanent UK establishment.",
       },
     ];
-  }, [scheme, companyAge, employees, grossAssets, previousRaise, plannedRaise, excludedActivity, ukPermanentEstablishment, limits]);
+  }, [companyAge, employees, grossAssets, previousRaise, plannedRaise, excludedActivity, ukPermanentEstablishment, limits]);
 
   const passedAll = checks.every((check) => check.passed);
   const passedCount = checks.filter((check) => check.passed).length;
