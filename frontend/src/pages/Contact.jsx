@@ -1,9 +1,13 @@
-import { Mail, MessageSquare, Sparkles } from "lucide-react";
+import { Linkedin, MessageSquare, Sparkles } from "lucide-react";
+
+const LINKEDIN_URL = "https://www.linkedin.com/in/sai-eadara1996/";
 
 const services = [
   "Custom business dashboards",
+  "Building SaaS-based products",
   "Document and PDF automation",
   "Invoice, quote, CRM, and stock systems",
+  "Business analysis and project management support",
   "Weekly improvements and support plans",
 ];
 
@@ -25,11 +29,18 @@ export default function Contact() {
         <div className="contact-panel">
           <h2><MessageSquare size={24} /> Project enquiry</h2>
           <p>
-            Email us with your business type, current process, and the result you want. For example:
-            &quot;I run a product business and need stock, sales, invoices, tasks, and reports in one place.&quot;
+            Connect with me on LinkedIn and send a message with your business type, current process,
+            and the result you want. For example: &quot;I run a product business and need stock, sales,
+            invoices, tasks, and reports in one place.&quot;
           </p>
-          <a className="primary-button" href="mailto:hello@ukfreelancertoolkit.com?subject=Custom%20web%20app%20enquiry" data-testid="contact-email-link">
-            <Mail size={17} /> hello@ukfreelancertoolkit.com
+          <a
+            className="primary-button"
+            href={LINKEDIN_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="contact-linkedin-link"
+          >
+            <Linkedin size={17} /> Connect on LinkedIn
           </a>
         </div>
 
