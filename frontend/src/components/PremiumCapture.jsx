@@ -28,7 +28,7 @@ export const PremiumCapture = ({ source = "premium-teaser" }) => {
     <section className="premium-band" data-testid={`premium-capture-${source}`}>
       <div data-testid={`premium-copy-${source}`}>
         <p className="eyebrow" data-testid={`premium-eyebrow-${source}`}><LockKeyhole size={14} /> Pro features coming soon</p>
-        <h2 data-testid={`premium-title-${source}`}>Save history, remove watermark, and use premium templates.</h2>
+        <h2 data-testid={`premium-title-${source}`}>Save history and unlock premium templates.</h2>
         <p data-testid={`premium-description-${source}`}>Join the early interest list for client records, recurring documents, and branded exports.</p>
       </div>
       <form className="email-capture" onSubmit={submit} data-testid={`premium-email-form-${source}`}>
