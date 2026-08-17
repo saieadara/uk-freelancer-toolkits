@@ -126,7 +126,6 @@ input:focus, textarea:focus, select:focus { border-color: var(--accent); box-sha
 
 .paper-preview { width: min(210mm, 100%); min-height: 1120px; background: white; color: var(--ink); border: 1px solid var(--line); box-shadow: var(--shadow); padding: clamp(38px, 5vw, 90px); margin: 0 auto; display: flex; flex-direction: column; gap: 24px; white-space: pre-line; overflow-wrap: anywhere; }
 .paper-preview, .business-plan-document, .contract-document, .product-template-doc, .hiring-document, .pitch-deck-preview { position: relative; }
-.download-watermark { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; z-index: 50; color: rgba(23,28,32,0.08); font-family: "Newsreader", serif; font-size: clamp(2.4rem, 6vw, 5.4rem); font-weight: 700; line-height: 1.05; text-align: center; text-transform: uppercase; letter-spacing: 0.08em; transform: rotate(-32deg); padding: 10%; white-space: normal; }
 .paper-header, .paper-meta { display: flex; justify-content: space-between; gap: 32px; }
 .paper-header h1 { font-family: "Newsreader", serif; font-size: 3rem; margin: 0 0 8px; }
 .paper-party, .paper-meta > div, .paper-footer > div { display: grid; gap: 6px; }
